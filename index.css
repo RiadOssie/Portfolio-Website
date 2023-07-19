@@ -1,0 +1,22 @@
+img{
+max-width: 15%;
+height: auto;
+}
+
+header{
+    display: flex;
+    align-items:space-between;
+}
+nav{
+    display: flex;
+    align-items: flex-seperate;
+    margin: 10px;
+    padding: 50px;
+    font-family: Roboto;
+}
+h1.nav{padding: 20px}
+#holdover{flex-grow: 45}
+#about{max-width: 50%;
+font-family: Rubik;}
+h2{font-family: Roboto;}
+h3{visibility: hidden}
