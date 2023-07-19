@@ -19,4 +19,12 @@ h1.nav{padding: 20px}
 #about{max-width: 50%;
 font-family: Rubik;}
 h2{font-family: Roboto;}
-h3{visibility: hidden}
+.svg{width: 50px;
+height: 50px}
+.flex{display: flex;
+justify-content: flex-start;}
+.flex h3{margin-top: 10px}
+
+.flex-2{display: flex;
+    justify-content: flex-start;}
+.flex-2 h3{margin-top: 10px}
