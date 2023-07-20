@@ -1,3 +1,5 @@
+*{margin-left: 30px;
+    margin-right: 30px;}
 img{
 max-width: 15%;
 height: auto;
@@ -14,7 +16,7 @@ nav{
     padding: 50px;
     font-family: Roboto;
 }
-h1.nav{padding: 20px}
+h1, nav{padding: 20px}
 #holdover{flex-grow: 45}
 #about{max-width: 50%;
 font-family: Rubik;}
@@ -28,3 +30,14 @@ justify-content: flex-start;}
 .flex-2{display: flex;
     justify-content: flex-start;}
 .flex-2 h3{margin-top: 10px}
+
+.logo{
+    width: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin:auto
+}
+form{width: 300px;
+height: 700px;}
+.form{font-family: Roboto;}
