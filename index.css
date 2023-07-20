@@ -42,7 +42,8 @@ form{width: 300px;
 height: 700px;}
 .form{font-family: Roboto;}
 
-.flexproject{display: block; margin-left: 150px; max-width: 1px;}
+#flexproject{display: block; margin-left: 150px; width: 1px;}
 
 .dashmoto{display: block;
-    margin-left: 150px; max-width: 1px;}
+    margin-left: 150px; width: 1px;}
+

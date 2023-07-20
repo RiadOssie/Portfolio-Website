@@ -13,7 +13,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 
-<script src="index.js"></script>
 
 <body>
     <header>
@@ -32,18 +31,18 @@
     </header>
 
     <div class="about">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <p id="about">Hi! I'm Riad Oussama, 23yo from Marrakesh. I'm a 5th year medical student with a deep love and passion for coding and learning about the web. Part of my fascination with the world of programming is the ability it grants every indiviual to build things on their own and turn their visions to reality. I am an aspiring entrepreneur, who truly believes in bootstrapping and relying on one's own resources and knowledge to succeed. I have so far invested heavily in my programmig learning journey, over 160 hours and counting especially that time for a medical student is a true sacrifice </p>
     </div>
 
     <div class="projects">
       <h2 class="project">Projects</h2>
       <div class="flex">
-      <img class="svg-1" src="SVG Drop.svg"></img>
-      <h3>Flex Project</h3>
+      <img id="svg-1" class="svg-1" src="SVG Drop.svg"></img>
+      <h3 id="proto">Flex Project</h3>
       
      </div>
-     <img class="flexproject" src="Flex.png">
+     <img id="flexproject" src="Flex.png">
 
 
     <div class="flex-2">
@@ -65,6 +64,14 @@
 
 
     </div>
-  
+    <script >
+      let svg = document.getElementById("svg-1")
+      let flex = document.getElementById("flexproject")
+      function changeWidth(){
+        flex.style.width = "7800px"
+      }
+      svg.onclick = changeWidth
+    </script>
+
 </body>
 </html>
